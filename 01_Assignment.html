@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Cell Alignment</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table class="tableStyle" border="20" width="50%" cellspacing="3" cellpadding="20">
+        <caption>Horizontal and Vertical Alignment</caption>
+      <tr>
+        <th colspan="5">Cell Alignment With CSS</th>
+      </tr>  
+      <tr>
+        <th class="alignCenter" rowspan="4">Example</th>
+        <th>Row</th>
+        <th>Cell-1</th>
+        <th>Cell-2</th>
+        <th>Cell-3</th>
+      </tr>
+      <tr>
+        <th class="cellHeight">3</th>
+        <td class="cellHeight vat hol">CSS</td>
+        <td class="cellHeight hol">CSS</td>
+        <td class="cellHeight vab hol">CSS</td>
+      </tr>
+      <tr>
+        <th class="cellHeight">4</th>
+        <td class="cellHeight vat">CSS</td>
+        <td class="cellHeight">CSS</td>
+        <td class="cellHeight vab">CSS</td>
+      </tr>
+      <tr>
+        <th class="cellHeight">5</th>
+        <td class="cellHeight vat hor">CSS</td>
+        <td class="cellHeight hor">CSS</td>
+        <td class="cellHeight vab hor">CSS</td>
+      </tr>
+    </table>
+    <hr>
+    <table class="tableStyle" border="2">
+        <caption>Horizontal and Vertical Alignment</caption>
+        <tr>
+            <th colspan="2">Cell Alignment With CSS</th>
+        </tr>
+        <tr>
+            <th class="alignCenter" rowspan="2">Examples</th>
+        </tr>
+        <tr>
+            <th>
+                <table class="tableStyle2" border="20" width="50%" cellspacing="3" cellpadding="20%">
+                    <caption class="Bottom">Nested Table</caption>
+                    <tr>
+                        <td>Row</td>
+                        <td>Cell-1</td>
+                        <td>Cell-2</td>
+                        <td>Cell-3</td>
+                    </tr>
+                    <tr>
+                        <th class="cellHeight">3</th>
+                        <td class="cellHeight vat hol">CSS</td>
+                        <td class="cellHeight hol">CSS</td>
+                        <td class="cellHeight vab hol">CSS</td>
+                    </tr>
+                    <tr>
+                        <th class="cellHeight">4</th>
+                        <td class="cellHeight vat">CSS</td>
+                        <td class="cellHeight">CSS</td>
+                        <td class="cellHeight vab">CSS</td>
+                    </tr>
+                    <tr>
+                        <th class="cellHeight">5</th>
+                        <td class="cellHeight vat hor">CSS</td>
+                        <td class="cellHeight hor">CSS</td>
+                        <td class="cellHeight vab hor">CSS</td>
+                    </tr>
+
+                </table>
+            </th>
+        </tr>
+    </table>
+    
+</body>
+</html>
